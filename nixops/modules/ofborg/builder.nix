@@ -22,7 +22,5 @@ in {
           helpers.rustborgservice "builder";
       };
     };
-
-    nix.package = pkgs.nixUnstable;
   };
 }
