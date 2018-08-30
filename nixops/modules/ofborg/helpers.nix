@@ -7,7 +7,7 @@
     wantedBy = [ "multi-user.target" ];
 
     path = with pkgs; [
-      nixUnstable
+      nixStable2
       git
       curl
       bash
