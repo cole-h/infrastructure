@@ -81,7 +81,7 @@ in {
     };
 
     nix = {
-      package = pkgs.nixStable2;
+      package = pkgs.nixUnstable;
       useSandbox = true;
       nixPath = [
         # Ruin the config so we don't accidentally run

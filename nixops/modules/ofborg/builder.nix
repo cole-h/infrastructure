@@ -23,6 +23,6 @@ in {
       };
     };
 
-    nix.package = pkgs.nixStable2;
+    nix.package = pkgs.nixUnstable;
   };
 }
